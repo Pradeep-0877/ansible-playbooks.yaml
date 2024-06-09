@@ -1,0 +1,5 @@
+- name: ping 
+  hosts: win_vars
+  tasks: 
+   - name: ping a server
+     win_ping: 
