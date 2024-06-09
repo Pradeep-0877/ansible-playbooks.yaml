@@ -1,0 +1,7 @@
+- name: copy file from github
+  hosts: win_vars
+  tasks: 
+    - name: copy
+      win_copy: 
+        src: copy.txt
+        dest: C:\Temp\foo.conf\
